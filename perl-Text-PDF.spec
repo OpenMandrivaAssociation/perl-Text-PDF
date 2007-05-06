@@ -1,10 +1,11 @@
 %define module Text-PDF
 %define name  perl-%{module}
-%define version 0.25
-%define release %mkrel 2
+%define vers 0.29
+%define subv a
+%define release %mkrel 1
 
 Summary:	 %{module} Perl module
-Version:	 %{version}
+Version:	 %{vers}%{subv}
 Name:        %{name}
 Release:     %{release}
 Distribution:    Mandrake Linux 
@@ -19,10 +20,12 @@ BuildArch: noarch
 Perl module to manipulate PDF files.
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -q -n %{module}-%{vers}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
+
+%check
 # no test defined yet
 %make test
 
