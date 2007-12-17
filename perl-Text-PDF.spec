@@ -12,7 +12,6 @@ License:	 Artistic
 Group:		 Development/Perl
 Source0:     ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text//%{module}-%{version}.tar.bz2
 URL:		 http://search.cpan.org/dist/%{module}
-BuildRoot:	 %{_tmppath}/%name-%version-buildroot
 BuildRequires: perl-devel
 BuildArch: noarch
 
