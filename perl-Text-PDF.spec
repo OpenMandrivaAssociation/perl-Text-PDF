@@ -2,7 +2,7 @@
 %define name  perl-%{module}
 %define vers 0.29
 %define subv a
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary:	 %{module} Perl module
 Version:	 %{vers}%{subv}
