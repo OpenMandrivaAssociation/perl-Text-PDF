@@ -43,3 +43,43 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/Text/
 %{_bindir}/*
 
+
+
+%changelog
+* Tue May 03 2011 Michael Scherer <misc@mandriva.org> 0.29a-6mdv2011.0
++ Revision: 664901
+- mass rebuild
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.29a-5mdv2010.0
++ Revision: 430603
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0.29a-4mdv2009.0
++ Revision: 258619
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.29a-3mdv2009.0
++ Revision: 246637
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.29a-1mdv2008.1
++ Revision: 140721
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Mon May 07 2007 Olivier Thauvin <nanardon@mandriva.org> 0.29a-1mdv2008.0
++ Revision: 23801
+- kill Distribution tag from spec
+- 0.29a
+
+
+* Fri Apr 28 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.25-2mdk
+- Fix SPEC according to Perl Policy
+	- Source URL
+- use mkrel
+
+* Thu Dec 25 2003 Michael Scherer <misc@mandrake.org> 0.25-1mdk 
+- introdution in contribs, based on Daniel Lacroix <dlacroix@erasme.org> work
+
