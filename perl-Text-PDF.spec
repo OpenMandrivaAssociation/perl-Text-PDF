@@ -5,12 +5,12 @@
 %define release %mkrel 6
 
 Summary:	 %{module} Perl module
-Version:	 %{vers}%{subv}
+Version:	 %perl_convert_version 0.29a
 Name:        %{name}
-Release:     %{release}
+Release:     1
 License:	 Artistic
 Group:		 Development/Perl
-Source0:     ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text//%{module}-%{version}.tar.bz2
+Source0:     ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Text/Text-PDF-0.29a.tar.gz
 URL:		 http://search.cpan.org/dist/%{module}
 BuildRoot:	 %{_tmppath}/%name-%version-buildroot
 BuildRequires: perl-devel
@@ -75,11 +75,12 @@ rm -rf $RPM_BUILD_ROOT
 - 0.29a
 
 
-* Fri Apr 28 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.25-2mdk
+* Fri Apr 28 2006 Nicolas LÃ©cureuil <neoclust@mandriva.org> 0.25-2mdk
 - Fix SPEC according to Perl Policy
 	- Source URL
 - use mkrel
 
 * Thu Dec 25 2003 Michael Scherer <misc@mandrake.org> 0.25-1mdk 
 - introdution in contribs, based on Daniel Lacroix <dlacroix@erasme.org> work
+
 
