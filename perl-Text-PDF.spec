@@ -2,12 +2,12 @@
 %define name  perl-%{module}
 %define vers 0.29
 %define subv a
-%define release 7
+%define release 8
 
 Summary:	 %{module} Perl module
 Version:	 %perl_convert_version 0.29a
 Name:        %{name}
-Release:     2
+Release:     3
 License:	 Artistic
 Group:		 Development/Perl
 Source0:     ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Text/Text-PDF-0.29a.tar.gz
