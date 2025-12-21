@@ -13,6 +13,7 @@ Group:		 Development/Perl
 Source0:     ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Text/Text-PDF-0.29a.tar.gz
 URL:		 https://search.cpan.org/dist/%{module}
 BuildRoot:	 %{_tmppath}/%name-%version-buildroot
+BuildRequires:	make
 BuildRequires: perl-devel
 BuildArch: noarch
 
