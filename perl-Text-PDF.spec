@@ -5,13 +5,13 @@
 %define release 8
 
 Summary:	 %{module} Perl module
-Version:	 %perl_convert_version 0.29a
+Version:	 0.31
 Name:        %{name}
-Release:     3
+Release:     1
 License:	 Artistic
 Group:		 Development/Perl
-Source0:     ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Text/Text-PDF-0.29a.tar.gz
-URL:		 https://search.cpan.org/dist/%{module}
+Source0:     https://cpan.metacpan.org/authors/id/B/BH/BHALLISSY/Text-PDF-0.31.tar.gz
+URL:		 https://github.com/silnrsi/text-pdf
 BuildRoot:	 %{_tmppath}/%name-%version-buildroot
 BuildRequires:	make
 BuildRequires: perl-devel
